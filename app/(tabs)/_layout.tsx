@@ -18,7 +18,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: "O Dia Santificado",
+          tabBarLabel: "Home",
           tabBarIcon: ({ color, focused }) => (
             <Ionicons
               name={focused ? "home" : "home-outline"}
@@ -32,7 +33,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="missa"
         options={{
-          title: "Missa",
+          title: "O Dia Santificado",
+          tabBarLabel: "Missa",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="church" size={24} color={color} />
           ),
@@ -42,7 +44,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="orasoens"
         options={{
-          title: "Orações",
+          title: "O Dia Santificado",
+          tabBarLabel: "Orações",
           tabBarIcon: ({ color }) => (
             <FontAwesome5 name="pray" size={24} color={color} />
           ),
@@ -52,7 +55,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="devosoens"
         options={{
-          title: "Devoções ",
+          title: "O Dia Santificado",
+          tabBarLabel: "Devoções",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="hands-praying" size={24} color={color} />
           ),
@@ -62,7 +66,8 @@ export default function TabLayout() {
       <Tabs.Screen
         name="doutrina"
         options={{
-          title: "Doutrina",
+          title: "O Dia Santificado",
+          tabBarLabel: "Doutrina",
           tabBarIcon: ({ color }) => (
             <FontAwesome6 name="book-bible" size={24} color={color} />
           ),
