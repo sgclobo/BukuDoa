@@ -22,6 +22,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "name": "O Dia Santificado",
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon-96x96.png"

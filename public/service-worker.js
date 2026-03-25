@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bukudoa-v2';
+const CACHE_NAME = 'bukudoa-v3';
 const PRE_CACHE = [
   '/',
   '/index.html',
